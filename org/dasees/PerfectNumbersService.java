@@ -51,7 +51,7 @@ public class PerfectNumbersService {
 	public List<PerfectNumber> getListOfPerfectNumbers(@PathParam("number1") long number1,@PathParam("number2") long number2)
 	{  
 		List<PerfectNumber> perfectnumberlist = null;
-		if(number1<number2) 
+		if(number1<=number2) 
 		{
 			perfectnumberlist=perfectnum.getListOfPerfectNumbers(number1, number2) ;
 		 
