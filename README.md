@@ -34,3 +34,25 @@ This method is used to provide the list of perfect numbers within given range of
 
 •	PerfectNumber : POJO class for perfect number object.
 •	PerfectNumberTest: Class has been created for Junit testing of perfect number functionality.
+
+**REST API**
+
+(1) Check Perfect Number
+
+URL : http://localhost:8080/PerfectNumbers/{number}
+	
+	![image](https://user-images.githubusercontent.com/59691221/137642250-f0eeeac0-ac72-47c3-b464-770f9fe6e5a3.png)
+
+	
+(2) Perfect Number List
+
+URL: http://localhost:8080/PerfectNumbers/{number1}/{number2}
+
+	![image](https://user-images.githubusercontent.com/59691221/137642253-179f658a-96eb-43d5-954d-9a3a6f87111d.png)
+
+
+**JUnit Testing**
+	![image](https://user-images.githubusercontent.com/59691221/137642266-ed16dc00-f2b3-45a3-b584-b64640f88b3c.png)
+
+	
+
