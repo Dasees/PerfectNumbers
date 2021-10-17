@@ -15,15 +15,14 @@ Program has been written to compute check perfect number and provide list of per
 Following classes have been created to achieve the complete solution
 • PerfectNumbersService : Class has been created to expose the above methods as REST API’s.
 	  @GET 
-	  @Produces(MediaType.TEXT_PLAIN)
-	  @Path("/{number}")
-	  public String checkNumber(@PathParam("number") long number)
-
-
-	  @GET 
 	  @Produces(MediaType.APPLICATION_JSON)
 	  @Path("/{number1}/{number2}")
 	  public List<PerfectNumber> getListOfPerfectNumbers (@PathParam("number1") long number1,@PathParam("number2") long number2)
+	
+	  @GET 
+	  @Produces(MediaType.TEXT_PLAIN)
+	  @Path("/{number}")
+	  public String checkNumber(@PathParam("number") long number)
 • PerfectNumberResource : Class has been created with 2 methods:
 
   public boolean checkPerfectNumber(long number): 
