@@ -39,5 +39,7 @@ public boolean checkPerfectNumber(long number):
   public List<PerfectNumber> getListOfPerfectNumbers(long number1, long number2):  
 	
   This method is used to provide the list of perfect numbers within given range of input numbers. Both numbers in the range are included in computing perfect number list.
+	
 • PerfectNumber : POJO class for perfect number object.
+	
 • PerfectNumberTest: Class has been created for Junit testing of perfect number functionality.	
